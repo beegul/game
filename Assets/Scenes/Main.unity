@@ -255,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4580766925885248, guid: 2f3e27eecb190e44a9af50723c394274, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0056
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4580766925885248, guid: 2f3e27eecb190e44a9af50723c394274, type: 3}
       propertyPath: m_LocalPosition.z
@@ -838,6 +838,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 397253349}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1654561166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654561164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc3bc0579cf08241b40574665fa46b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!143 &1654561167
 CharacterController:
   m_ObjectHideFlags: 0
@@ -868,12 +880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b0cd1a0154abb40afd90fc66cdbd15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSpeed: 3
-  movementSpeed: 2
-  jumpSpeed: 5
-  dashSpeed: 0.5
-  gravity: 20
-  animator: {fileID: 1654561165}
 --- !u!114 &1654561169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,7 +893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1654561165}
---- !u!114 &1654561170
+--- !u!114 &1654561171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -896,10 +902,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1654561164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59610d725efe3c94b92386b571c7efd9, type: 3}
+  m_Script: {fileID: 11500000, guid: f1c3c22cb5b443f45bec2a0cb3a23e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1654561165}
 --- !u!1 &2140851339
 GameObject:
   m_ObjectHideFlags: 0
